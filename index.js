@@ -35,4 +35,4 @@ let newwwmsg = newmsg.toUpperCase();
 let newly = msg.trim().toUpperCase();
 console.log(newwwmsg);
 console.log(newly);
-console.log(msg.slice(0,4));fhlhuhuhfghhhkj,k,,mj,msg
+console.log(msg.slice(0,4));fhlhuhuhfghhhkj,k,,mj,msgjjkjk,k
