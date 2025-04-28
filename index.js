@@ -36,4 +36,19 @@ let newwwmsg = newmsg.toUpperCase();
 let newly = msg.trim().toUpperCase();
 console.log(newwwmsg);
 console.log(newly);
-console.log(msg.slice(0,4));fhlhuhuhfghhhkj,k,,mj,msgjjkjk,k
+console.log(msg.slice(0,4));
+console.log(msg.replace("A","O"));
+console.log(msg.repeat(5));
+let student = ["a","B","c"];
+let nums =["2","4","6","8"];
+let info =["Shradha",10,1.5];
+console.log(info[0].length);
+let empty=[];
+let cars = ["audi", "toyota"];
+console.log(cars.push("bmw")); // add at last 
+console.log(cars.pop());     // delete from end
+console.log(cars.unshift("bmw"));  // add to start
+console.log(cars.shift());   //delete from starting
+let color=["red","green","yellow","blue","black"];
+console.log(color.indexOf("red"));
+console.log(color.includes("red"));

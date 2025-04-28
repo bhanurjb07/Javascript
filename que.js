@@ -17,3 +17,10 @@
 // } else {
 //     console.log("Not a golden word");
 // }
+
+let month=["jan","jul","mar","aug"];
+month.shift();
+month.shift();
+month.unshift("jun");
+month.unshift("jul");
+console.log(month);    //jul,jun,mar,aug
