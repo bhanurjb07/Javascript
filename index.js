@@ -31,6 +31,7 @@ if(num){
 
 let msg = "ApnaCollegeisbest";
 let newmsg = msg.trim();
+
 let newwwmsg = newmsg.toUpperCase();
 let newly = msg.trim().toUpperCase();
 console.log(newwwmsg);

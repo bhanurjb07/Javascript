@@ -17,4 +17,3 @@
 // } else {
 //     console.log("Not a golden word");
 // }
-nkjhbm,ħĸk
