@@ -51,4 +51,4 @@ console.log(cars.unshift("bmw"));  // add to start
 console.log(cars.shift());   //delete from starting
 let color=["red","green","yellow","blue","black"];
 console.log(color.indexOf("red"));
-console.log(color.includes("red"));
+console.log(color.includes("red"));efuhruih
