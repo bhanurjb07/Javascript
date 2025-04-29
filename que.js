@@ -24,3 +24,11 @@ month.shift();
 month.unshift("jun");
 month.unshift("jul");
 console.log(month);    //jul,jun,mar,aug
+
+let month2=["jan","jul","mar","aug"];
+month2.splice(0,2,"jul","jun");
+console.log(month2);
+
+//tik tak toe
+let game = [['X',null,'O'],[null,'X','O'],['O',null,'X']];
+game[0][0]='O';

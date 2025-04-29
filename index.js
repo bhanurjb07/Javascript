@@ -51,4 +51,15 @@ console.log(cars.unshift("bmw"));  // add to start
 console.log(cars.shift());   //delete from starting
 let color=["red","green","yellow","blue","black"];
 console.log(color.indexOf("red"));
-console.log(color.includes("red"));efuhruih
+console.log(color.includes("red"));
+let color2=["red","yeloow"];
+console.log(color.concat(color2));
+console.log(color2.reverse());
+console.log(color.slice());
+console.log(color.slice(2));
+console.log(color.slice(2,3));
+console.log(color.slice(-4));
+console.log(cars);
+console.log(cars.splice(0,1,"lambo"));
+let numm=[[1,2],[3,4],[5,6]];
+numm.length;
