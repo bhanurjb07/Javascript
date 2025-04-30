@@ -91,3 +91,18 @@ const schinfo = [
         age : 12
     }
 ];
+//Functions
+function helloe(){
+    console.log("Hellow function");
+}
+helloe();
+function printinfo(name,age){
+    console.log(`${name}'s age is ${age}.`);
+}
+printinfo("Shradha",23); 
+//return
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(3,4));
+console.log(sum(sum(2,5),5));

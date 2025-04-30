@@ -38,20 +38,51 @@ let randomm = Math.floor(Math.random()*100) +1 ;
 console.log(randomm);
 
 //Guessing Game
-const max = prompt("Enetr the max number");
-const random = Math.floor(Math.random()*max)+1 ;
-let guess = prompt("Guess the number");
-while(true){
-    if(guess == "quit"){
-        console.log("User quit");
-        break;
-    }
-    if(guess == random){
-        console.log("You are ringh! Congrats!!!");
-        break;
-    }else if(guess < random){
-        guess = prompt(" Hint : Your guess was small. Please try again");
-    }else{
-        guess = prompt(" Hint : Your guess was larger. Please try agin!!");
+// const max = prompt("Enetr the max number");
+// const random = Math.floor(Math.random()*max)+1 ;
+// let guess = prompt("Guess the number");
+// while(true){
+//     if(guess == "quit"){
+//         console.log("User quit");
+//         break;
+//     }
+//     if(guess == random){
+//         console.log("You are ringh! Congrats!!!");
+//         break;
+//     }else if(guess < random){
+//         guess = prompt(" Hint : Your guess was small. Please try again");
+//     }else{
+//         guess = prompt(" Hint : Your guess was larger. Please try agin!!");
+//     }
+// }
+
+function poem(){
+    console.log("Twinckle twinclr little star");
+}
+poem();
+
+function dice(){
+    let nummm = Math.floor((Math.random()*6))+1;
+    console.log(nummm);
+}
+dice();
+
+function average(a,b,c){
+    console.log("average = " + (a+b+c)/3); //plus is used to concatednate 
+}
+average(10,20,30);
+
+function table(a){
+    for (let i = 1; i <= 10; i++){
+        console.log(a*i);
     }
 }
+table(5);
+
+function sumton(n){
+    let sum =0;
+    for(let i =1; i<=n; i++){
+        return sum += i;
+    }
+}
+console.log()
