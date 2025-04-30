@@ -39,7 +39,7 @@ console.log(newly);
 console.log(msg.slice(0,4));
 console.log(msg.replace("A","O"));
 console.log(msg.repeat(5));
-let student = ["a","B","c"];
+let student11 = ["a","B","c"];
 let nums =["2","4","6","8"];
 let info =["Shradha",10,1.5];
 console.log(info[0].length);
@@ -62,4 +62,32 @@ console.log(color.slice(-4));
 console.log(cars);
 console.log(cars.splice(0,1,"lambo"));
 let numm=[[1,2],[3,4],[5,6]];
-numm.length;
+const student = {
+    name :"Bhanu",
+    age : 19,
+    section : 7
+};
+student.name = "sachin";   //update
+student.gender = "male";   //add
+//object of object
+const classinfo = {
+    anam : {
+        age  : 20,
+        city : "Agra"
+    },
+    shradha : {
+        age : 21,
+        city : "Delhi"
+    }
+};
+// array of object
+const schinfo = [
+    {
+        name : "Guru",
+        age : 12
+    },
+    {
+        name : "Prabhu",
+        age : 12
+    }
+];

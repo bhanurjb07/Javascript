@@ -32,3 +32,26 @@ console.log(month2);
 //tik tak toe
 let game = [['X',null,'O'],[null,'X','O'],['O',null,'X']];
 game[0][0]='O';
+
+//1 to 100
+let randomm = Math.floor(Math.random()*100) +1 ;
+console.log(randomm);
+
+//Guessing Game
+const max = prompt("Enetr the max number");
+const random = Math.floor(Math.random()*max)+1 ;
+let guess = prompt("Guess the number");
+while(true){
+    if(guess == "quit"){
+        console.log("User quit");
+        break;
+    }
+    if(guess == random){
+        console.log("You are ringh! Congrats!!!");
+        break;
+    }else if(guess < random){
+        guess = prompt(" Hint : Your guess was small. Please try again");
+    }else{
+        guess = prompt(" Hint : Your guess was larger. Please try agin!!");
+    }
+}
